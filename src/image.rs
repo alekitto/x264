@@ -1,5 +1,5 @@
-use core::marker::PhantomData;
-use core::ptr;
+use crate::ptr;
+use crate::PhantomData;
 use x264::*;
 use {Colorspace, Encoding, Modifier};
 

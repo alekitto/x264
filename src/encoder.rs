@@ -1,4 +1,4 @@
-use core::{mem, ptr};
+use crate::{mem, ptr};
 use x264::*;
 use {Data, Encoding, Error, Image, Picture, Result, Setup};
 
